@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/array.ts", "src/Object.ts","src/type-alias.ts","src/union.ts","src/intersection.ts","src/litral.ts","src/enum.ts","src/tuple.ts","src/function.ts","src/generic2.ts","src/generic3.ts","src/generic4.ts","src/generic5.ts","src/generic6.ts","src/generic7.ts","src/generic8.ts","src/generic9.ts","src/generic10.ts","src/task-function.ts","src/task-generic.ts","src/class.ts","src/class2.ts","src/class3.ts","src/class4.ts","src/class5.ts","src/class6.ts","src/class7.ts","src/class8.ts","src/interface.ts","src/interface2.ts","src/interface3.ts","src/interface4.ts","src/interface5.ts","src/interface6.ts","src/interface7.ts","src/interface8.ts","src/interface9.ts","src/interface10.ts","src/generic11.ts","src/generic12.ts","src/generic13.ts","src/generic14.ts","src/generic15.ts","src/generic16.ts","src/generic17.ts","src/generic18.ts","src/generic19.ts","src/generics.ts","src/generic20.ts","src/generic21.ts","src/generic22.ts","src/generic23.ts","src/generic24.ts","src/generic25.ts","src/generic26.ts","src/generic27.ts","src/generic28.ts","src/generic29.ts","src/generic30.ts","src/task-utility.ts","src/utility-types.ts","src/utility-types2.ts","src/utility-types3.ts","src/utility-types4.ts","src/utility-types5.ts","src/utility-types6.ts","src/utility-types7.ts","src/utility-types8.ts","src/utility-types9.ts","src/utility-types10.ts","src/type-guard.ts","src/type-assertion.ts","src/type-assertion2.ts","src/type-assertion3.ts","src/type-assertion4.ts","src/type-assertion5.ts","src/type-assertion6.ts","src/type-assertion7.ts","src/type-assertion8.ts","src/type-assertion9.ts","src/type-assertion10.ts"]
+}
