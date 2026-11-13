@@ -1,4 +1,9 @@
-const getResultMessage = (student:{name:string;score:number}) => {
+type Student = {
+ name: string;
+ score: number;
+};
+
+const getResultMessage = (student: Student): string => {
  if (student.score >= 60) {
    return `${student.name}さんは合格です。`;
  } else {
@@ -8,7 +13,7 @@ const getResultMessage = (student:{name:string;score:number}) => {
 
 const studentA = {
  name: '侍太郎',
- score: 100,
+ score: 60,
 };
 
 let resultMessage = getResultMessage(studentA);
