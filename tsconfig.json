@@ -1,22 +1,15 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
-
-    //======== 中略 ========
-
-   /* Modules */
-    "module": "commonjs",                                /* Specify what module code is generated. */
-    // "rootDir": "./",                                  /* Specify the root folder within your source files. */
-    "rootDir": "./src",                                  /* トランスパイル対象のフォルダ */
-
-    //======== 中略 ========
-    "outDir": "./dist",                                      /* Specify an output folder for all emitted files. */
-    "noEmitOnError": true,                               /* 型エラーを1つでも検知したら.jsファイルを出力しないようにする。 */
-
-
-  }
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "moduleDetection": "force",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"]
 }

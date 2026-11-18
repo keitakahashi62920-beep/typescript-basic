@@ -4,27 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -p tsconfig.json",
     "compile:array": "tsc -p tsconfig.array.json",
-    "lint": "oxlint",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "lint": "oxlint"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.3.0"
+    "typescript": "~6.0.2"
   },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.",
-  "main": "index.js",
+  "description": "TypeScript learning exercises",
   "keywords": [],
   "author": "",
   "license": "ISC"
